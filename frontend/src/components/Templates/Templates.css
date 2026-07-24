@@ -1,0 +1,248 @@
+/* ============================================================
+   Templates.css - Resume Template Styles
+   Ye white paper look deta hai - PDF mein acha dikhta hai
+   ============================================================ */
+
+/* ===========================
+   MODERN TEMPLATE
+   =========================== */
+.modern-template {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: 297mm;
+  font-family: 'Inter', sans-serif;
+  background: white;
+  color: #1a1a2e;
+}
+
+.modern-sidebar {
+  background: #1a1a2e;
+  color: white;
+  padding: 2rem 1.25rem;
+}
+
+.modern-name-section {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.modern-avatar {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: white;
+  margin: 0 auto 0.75rem;
+}
+
+.modern-name {
+  font-size: 1rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.modern-tagline {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.6);
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+
+.modern-section {
+  margin-bottom: 1.25rem;
+}
+
+.modern-section-title {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #6366f1;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.modern-contact-item {
+  font-size: 0.73rem;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 0.3rem;
+  word-break: break-all;
+}
+
+.modern-skill-group { margin-bottom: 0.5rem; }
+.modern-skill-category {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 0.15rem;
+}
+.modern-skill-items {
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.4;
+}
+
+.modern-cert { margin-bottom: 0.5rem; }
+.modern-cert-name { font-size: 0.72rem; color: white; font-weight: 600; }
+.modern-cert-issuer { font-size: 0.68rem; color: rgba(255,255,255,0.55); }
+
+/* Right main */
+.modern-main { padding: 2rem 1.5rem; }
+
+.modern-content-section {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+.modern-content-section:last-child { border-bottom: none; }
+
+.modern-content-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6366f1;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #6366f1;
+  display: inline-block;
+}
+
+.modern-summary-text { font-size: 0.82rem; color: #374151; line-height: 1.6; }
+
+.modern-entry { margin-bottom: 0.85rem; }
+.modern-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.modern-entry-title { font-size: 0.85rem; font-weight: 700; color: #111827; }
+.modern-entry-subtitle { font-size: 0.75rem; color: #6b7280; }
+.modern-entry-date {
+  font-size: 0.72rem;
+  color: #6366f1;
+  font-weight: 600;
+  white-space: nowrap;
+  background: rgba(99,102,241,0.08);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+.modern-entry-desc { font-size: 0.78rem; color: #4b5563; line-height: 1.5; white-space: pre-wrap; }
+.modern-grade { font-size: 0.7rem; color: #6366f1; font-weight: 700; text-align: right; }
+.modern-tech-badge {
+  font-size: 0.68rem;
+  background: rgba(6,182,212,0.1);
+  color: #0891b2;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.modern-achievement {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  margin-bottom: 0.4rem;
+}
+.modern-achievement-title { font-size: 0.8rem; font-weight: 600; color: #111827; }
+.modern-achievement-desc { font-size: 0.74rem; color: #6b7280; }
+
+
+/* ===========================
+   PROFESSIONAL TEMPLATE
+   =========================== */
+.prof-template {
+  font-family: 'Inter', sans-serif;
+  background: white;
+  color: #1a1a2e;
+  min-height: 297mm;
+}
+
+.prof-header {
+  background: #1e3a5f;
+  color: white;
+  padding: 1.5rem 2rem;
+}
+
+.prof-name { font-size: 1.6rem; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 0.5rem; }
+
+.prof-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.8);
+  margin-top: 0.25rem;
+}
+
+.prof-body { padding: 1.25rem 2rem; }
+
+.prof-section { margin-bottom: 1.25rem; }
+
+.prof-section-title {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #1e3a5f;
+  border-bottom: 2px solid #1e3a5f;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.7rem;
+}
+
+.prof-text { font-size: 0.8rem; color: #374151; line-height: 1.5; }
+
+.prof-entry { margin-bottom: 0.75rem; }
+.prof-entry-top { display: flex; justify-content: space-between; align-items: flex-start; }
+.prof-entry-title { font-size: 0.85rem; font-weight: 700; color: #111827; }
+.prof-entry-company { font-size: 0.82rem; color: #4b5563; }
+.prof-entry-date { font-size: 0.72rem; color: #6b7280; font-style: italic; white-space: nowrap; }
+
+.prof-skill-row { display: flex; gap: 0.25rem; margin-bottom: 0.3rem; }
+.prof-skill-category { font-size: 0.8rem; font-weight: 700; color: #1e3a5f; }
+
+
+/* ===========================
+   MINIMAL TEMPLATE
+   =========================== */
+.minimal-template {
+  font-family: 'Inter', sans-serif;
+  background: white;
+  color: #111827;
+  padding: 2rem 2.5rem;
+  min-height: 297mm;
+}
+
+.minimal-header { margin-bottom: 0.75rem; }
+.minimal-name { font-size: 1.8rem; font-weight: 800; letter-spacing: -0.5px; color: #111827; margin-bottom: 0.4rem; }
+.minimal-contact { font-size: 0.78rem; color: #6b7280; }
+
+.minimal-divider { height: 2px; background: #111827; margin: 0.75rem 0 1rem; }
+
+.minimal-section { margin-bottom: 1.25rem; }
+
+.minimal-section-title {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #059669;
+  margin-bottom: 0.5rem;
+}
+
+.minimal-text { font-size: 0.8rem; color: #374151; line-height: 1.5; margin-bottom: 0.25rem; }
+
+.minimal-entry { margin-bottom: 0.65rem; }
+.minimal-entry-row { display: flex; justify-content: space-between; }
+.minimal-entry-title { font-size: 0.82rem; font-weight: 700; color: #111827; }
+.minimal-entry-date { font-size: 0.72rem; color: #6b7280; }
